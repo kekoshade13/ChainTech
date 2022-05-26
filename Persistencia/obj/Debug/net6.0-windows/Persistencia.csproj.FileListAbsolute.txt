@@ -1,0 +1,12 @@
+C:\Users\josep\source\repos\LoginC\Persistencia\bin\Debug\net6.0-windows\Persistencia.deps.json
+C:\Users\josep\source\repos\LoginC\Persistencia\bin\Debug\net6.0-windows\Persistencia.dll
+C:\Users\josep\source\repos\LoginC\Persistencia\bin\Debug\net6.0-windows\Persistencia.pdb
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\Persistencia.csproj.AssemblyReference.cache
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\Persistencia.AssemblyInfoInputs.cache
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\Persistencia.AssemblyInfo.cs
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\Persistencia.dll
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\refint\Persistencia.dll
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\Persistencia.pdb
+C:\Users\josep\source\repos\LoginC\Persistencia\obj\Debug\net6.0-windows\ref\Persistencia.dll

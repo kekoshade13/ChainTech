@@ -1,0 +1,9 @@
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.AssemblyReference.cache
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.Form.resources
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\App.FormLogin.resources
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.Properties.Resources.resources
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.GenerateResource.cache
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfoInputs.cache
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfo.cs
+C:\Users\josep\source\repos\LoginC\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.CoreCompileInputs.cache
