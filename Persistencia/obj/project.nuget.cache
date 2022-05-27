@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fwYsrSIgnO/VnrtyKgh2oSP5+seqanrmg8TaobtbztTPonpNt9369Kf3rRQgyS6AOZm0BUr8didBZoWsri7Jtw==",
+  "dgSpecHash": "vsYWap6eblAiC+AvShX7Q0BfwGRQn5ZkoqdA1VugqiGX9Wnbr100xxtPvjiV6T1YtkoWKleX0w8yVtVH1gwinw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josep\\source\\repos\\LoginC\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\josep\\source\\repos\\Chain\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

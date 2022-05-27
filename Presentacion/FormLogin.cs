@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using Domain;
+using Presentacion;
+using VentanaPrincipal;
 
 namespace App
 {
@@ -103,20 +105,36 @@ namespace App
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUser != "Username") {
-                if(txtPass != "Contraseña"){
+            if(txtUser.Text != "USUARIO") {
+                if(txtPass.Text != "CONTRASEÑA"){
+                    UserModel user = new UserModel();
+                    var validLogin = user.Login(txtUser.Text, txtPass.Text);
 
+                    if(validLogin == true)
+                    {
+                        Principal principal = new Principal();
+                        principal.Show();
+                    } else {
+                        msgError("El usuario o la contraseña ingresada no son correctos. \nIntenta nuevamente");
+                        txtPass.Clear();
+                        txtUser.Focus();
+                    }
                 } else {
-                    msgError("Por favor, ingresa tu contraseña");
+                    msgError("No puedes dejar campos vacios. \nPor favor, ingresa tu contraseña");
                 }
             } else {
-                msgError("Por favor ingresa tu usuario");
+                msgError("No puedes dejar campos vacios. \nPor favor, ingresa tu contraseña");
             }
         }
         private void msgError(string msg)
         {
-            lblErrorMessage.Text = "    " + msg;
+            lblErrorMessage.Text = msg;
             lblErrorMessage.Visible = true;
+        }
+
+        private void lblErrorMessage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

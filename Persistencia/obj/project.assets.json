@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\LoginC\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\Users\\josep\\source\\repos\\Chain\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\josep\\source\\repos\\Chain\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"

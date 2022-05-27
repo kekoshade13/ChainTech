@@ -503,11 +503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\LoginC\\Presentacion\\Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain\\Presentacion\\Presentacion.csproj",
       "projectName": "Presentacion",
-      "projectPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Presentacion\\Presentacion.csproj",
+      "projectPath": "C:\\Users\\josep\\source\\repos\\Chain\\Presentacion\\Presentacion.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Presentacion\\obj\\",
+      "outputPath": "C:\\Users\\josep\\source\\repos\\Chain\\Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"
@@ -528,8 +528,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\josep\\source\\repos\\LoginC\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Domain\\Domain.csproj"
+            "C:\\Users\\josep\\source\\repos\\Chain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\josep\\source\\repos\\Chain\\Domain\\Domain.csproj"
             }
           }
         }

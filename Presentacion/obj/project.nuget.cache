@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cju7zQh344HX01piyRAhFHFl/9Nu9Cuxf7hKqSB4etG34R1heN6BCcTp0UMC8wgxkb+5JonHMYB/NNujdvkIXw==",
+  "dgSpecHash": "WXZvnPXIcUcGqiMLtx+MiT2jPSyvLUZxn3OECw/7A1wXg1yWXQ/Lo3UsxlKjd1+Q+RGizjp+R+LeE3vEYTOmng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josep\\source\\repos\\LoginC\\Presentacion\\Presentacion.csproj",
+  "projectFilePath": "C:\\Users\\josep\\source\\repos\\Chain\\Presentacion\\Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

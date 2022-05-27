@@ -482,11 +482,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\LoginC\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\josep\\source\\repos\\Chain\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\josep\\source\\repos\\Chain\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"
@@ -507,8 +507,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\josep\\source\\repos\\LoginC\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\josep\\source\\repos\\LoginC\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\josep\\source\\repos\\Chain\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\josep\\source\\repos\\Chain\\Persistencia\\Persistencia.csproj"
             }
           }
         }
