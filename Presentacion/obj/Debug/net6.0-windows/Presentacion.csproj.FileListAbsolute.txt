@@ -37,3 +37,15 @@ C:\Users\josep\source\repos\Chain\Presentacion\obj\Debug\net6.0-windows\Presenta
 C:\Users\josep\source\repos\Chain\Presentacion\obj\Debug\net6.0-windows\Presentacion.genruntimeconfig.cache
 C:\Users\josep\source\repos\Chain\Presentacion\obj\Debug\net6.0-windows\ref\Presentacion.dll
 C:\Users\josep\source\repos\Chain\Presentacion\obj\Debug\net6.0-windows\VentanaPrincipal.Principal.resources
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\App.FormLogin.resources
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\VentanaPrincipal.Principal.resources
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.Properties.Resources.resources
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.AssemblyInfo.cs
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.dll
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\ref\Presentacion.dll
+C:\Users\Usuario\Documents\ChainTech\Presentacion\obj\Debug\net6.0-windows\Presentacion.pdb
