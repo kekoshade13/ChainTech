@@ -11,7 +11,6 @@ using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using Domain;
 using Presentacion;
-using VentanaPrincipal;
 
 namespace App
 {
@@ -114,6 +113,7 @@ namespace App
                     {
                         Principal principal = new Principal();
                         principal.Show();
+                        principal.FormClosed += Logout;
                     } else {
                         msgError("El usuario o la contraseña ingresada no son correctos. \nIntenta nuevamente");
                         txtPass.Clear();
@@ -132,9 +132,13 @@ namespace App
             lblErrorMessage.Visible = true;
         }
 
-        private void lblErrorMessage_Click(object sender, EventArgs e)
+        private void Logout(object sender, FormClosedEventArgs e)
         {
-
+            txtPass.Clear();
+            txtUser.Clear();
+            lblErrorMessage.Visible = false;
+            this.Show();
+            txtUser.Focus();
         }
     }
 }

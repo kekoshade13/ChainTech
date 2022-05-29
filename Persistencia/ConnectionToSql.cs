@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace Persistencia
 {
@@ -17,6 +18,8 @@ namespace Persistencia
         protected SqlConnection GetConnection() {
             return new SqlConnection(connString);
         }
+
+        
 
 
     }

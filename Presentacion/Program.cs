@@ -1,5 +1,4 @@
 using App;
-using VentanaPrincipal;
 
 namespace Presentacion
 {

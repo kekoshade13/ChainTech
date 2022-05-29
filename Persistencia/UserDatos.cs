@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using CapaTransversal.Cache;
 
 namespace Persistencia
 {
@@ -25,6 +26,13 @@ namespace Persistencia
 
                     SqlDataReader reader = command.ExecuteReader();
                     if(reader.HasRows) {
+                        while(reader.Read()) {
+                            CacheLoginUser.IdUser = reader.GetInt32(0);
+                            CacheLoginUser.FirstName = reader.GetString(3);
+                            CacheLoginUser.LastName = reader.GetString(4);
+                            CacheLoginUser.Position = reader.GetString(5);
+                            CacheLoginUser.Email = reader.GetString(6);
+                        }
                         return true;
                     } else {
                         return false;

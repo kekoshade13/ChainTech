@@ -205,7 +205,6 @@ namespace App
             this.lblErrorMessage.TabIndex = 11;
             this.lblErrorMessage.Text = "Error Message";
             this.lblErrorMessage.Visible = false;
-            this.lblErrorMessage.Click += new System.EventHandler(this.lblErrorMessage_Click);
             // 
             // FormLogin
             // 

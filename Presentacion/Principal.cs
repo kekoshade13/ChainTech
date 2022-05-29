@@ -1,6 +1,16 @@
-using App;
+﻿using App;
+using CapaTransversal.Cache;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace VentanaPrincipal
+namespace Presentacion
 {
     public partial class Principal : Form
     {
@@ -9,28 +19,59 @@ namespace VentanaPrincipal
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void btnVerMas_MouseHover(object sender, EventArgs e)
+        {
+            btnVerMas.BackColor = Color.Black;
+            btnVerMas.ForeColor = Color.White;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVerMas_MouseLeave(object sender, EventArgs e)
+        {
+            btnVerMas.BackColor = Color.White;
+            btnVerMas.ForeColor = Color.Black;
+        }
+
+        private void btnPerfil_Click(object sender, EventArgs e)
         {
             FormLogin login = new FormLogin();
             login.Show();
-            this.Hide();
+        }
+
+
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void Principal_Load(object sender, EventArgs e)
         {
-
+            userLoadData();
+            btnLogout.Hide();
         }
 
-        private void btnPerfil_MouseHover(object sender, EventArgs e)
+        private void btnLogout_Click(object sender, EventArgs e)
         {
-            btnPerfil.BackColor = Color.White;
-            btnPerfil.ForeColor = Color.Black;
+            this.Close();
         }
 
-        private void btnPerfil_MouseLeave(object sender, EventArgs e)
+        private void userLoadData()
         {
-            btnPerfil.BackColor = Color.White;
-            btnPerfil.ForeColor = Color.Black;
+            lblNombre.Text = CacheLoginUser.FirstName + " "  + CacheLoginUser.LastName;
         }
     }
 }

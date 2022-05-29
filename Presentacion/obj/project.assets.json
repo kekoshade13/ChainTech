@@ -131,10 +131,24 @@
           }
         }
       },
+      "CapaTransversal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CapaTransversal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaTransversal.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CapaTransversal": "1.0.0",
           "Persistencia": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
@@ -152,6 +166,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CapaTransversal": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
@@ -480,6 +495,11 @@
         "version.txt"
       ]
     },
+    "CapaTransversal/1.0.0": {
+      "type": "project",
+      "path": "../CapaTransversal/CapaTransversal.csproj",
+      "msbuildProject": "../CapaTransversal/CapaTransversal.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -493,32 +513,30 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "CapaTransversal >= 1.0.0",
       "Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\josep\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\2022\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\ChainTech\\Presentacion\\Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\Presentacion.csproj",
       "projectName": "Presentacion",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\ChainTech\\Presentacion\\Presentacion.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\ChainTech\\Presentacion\\obj\\",
+      "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\Presentacion.csproj",
+      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows7.0"
@@ -531,8 +549,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Documents\\ChainTech\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Documents\\ChainTech\\Domain\\Domain.csproj"
+            "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj": {
+              "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj"
+            },
+            "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\Domain.csproj"
             }
           }
         }
@@ -564,7 +585,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
