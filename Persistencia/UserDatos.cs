@@ -30,7 +30,7 @@ namespace Persistencia
                             CacheLoginUser.IdUser = reader.GetInt32(0);
                             CacheLoginUser.FirstName = reader.GetString(3);
                             CacheLoginUser.LastName = reader.GetString(4);
-                            CacheLoginUser.Position = reader.GetString(5);
+                            CacheLoginUser.Role = reader.GetString(5);
                             CacheLoginUser.Email = reader.GetString(6);
                         }
                         return true;

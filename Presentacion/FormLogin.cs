@@ -11,6 +11,8 @@ using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using Domain;
 using Presentacion;
+using System.Text.Json;
+using CapaTransversal.Cache;
 
 namespace App
 {
@@ -109,12 +111,35 @@ namespace App
                     UserModel user = new UserModel();
                     var validLogin = user.Login(txtUser.Text, txtPass.Text);
 
-                    if(validLogin == true)
+                    if (validLogin == true)
                     {
                         Principal principal = new Principal();
                         principal.Show();
                         principal.FormClosed += Logout;
-                    } else {
+                        JsonWriterOptions jsonWOption = new JsonWriterOptions
+                        {
+                            Indented = true
+                        };
+                        using (var ms = new MemoryStream())
+                        {
+                            using (var writer = new Utf8JsonWriter(ms, jsonWOption))
+                            {
+                                writer.WriteStartObject();
+                                writer.WriteString("Login: ", "Exitoso");
+                                writer.WriteNumber("ID_User", CacheLoginUser.IdUser);
+                                writer.WriteString("Nombre", CacheLoginUser.FirstName);
+                                writer.WriteString("Apellido", CacheLoginUser.LastName);
+                                writer.WriteString("Email", CacheLoginUser.Email);
+                                writer.WriteString("Rol", CacheLoginUser.Role);
+
+                                writer.WriteEndObject();
+                            }
+                            string JSONString = Encoding.UTF8.GetString(ms.ToArray());
+                            Console.WriteLine(JSONString);
+                            File.WriteAllText("JSONUser.txt", JSONString);
+                        }
+                    } else
+                    {
                         msgError("El usuario o la contraseña ingresada no son correctos. \nIntenta nuevamente");
                         txtPass.Clear();
                         txtUser.Focus();

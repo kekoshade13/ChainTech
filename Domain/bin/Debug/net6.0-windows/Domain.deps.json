@@ -10,7 +10,8 @@
         "dependencies": {
           "CapaTransversal": "1.0.0",
           "Persistencia": "1.0.0",
-          "System.Data.SqlClient": "4.8.3"
+          "System.Data.SqlClient": "4.8.3",
+          "System.Text.Json": "6.0.4"
         },
         "runtime": {
           "Domain.dll": {}
@@ -84,6 +85,7 @@
           }
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Security.AccessControl/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -91,7 +93,27 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.522.21309"
+          }
+        }
+      },
       "CapaTransversal/1.0.0": {
+        "dependencies": {
+          "System.Text.Json": "6.0.4"
+        },
         "runtime": {
           "CapaTransversal.dll": {}
         }
@@ -99,7 +121,8 @@
       "Persistencia/1.0.0": {
         "dependencies": {
           "CapaTransversal": "1.0.0",
-          "System.Data.SqlClient": "4.8.3"
+          "System.Data.SqlClient": "4.8.3",
+          "System.Text.Json": "6.0.4"
         },
         "runtime": {
           "Persistencia.dll": {}
@@ -162,6 +185,13 @@
       "path": "system.data.sqlclient/4.8.3",
       "hashPath": "system.data.sqlclient.4.8.3.nupkg.sha512"
     },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
     "System.Security.AccessControl/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -175,6 +205,20 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-krM+rxZPl5MQqGmHbj/gLis58IqGrLQGm7CIvNJ72Wj1MCdXNu1uMco5wRr7PmPOL/ITF/uEkB/3S1nSGFNvHg==",
+      "path": "system.text.json/6.0.4",
+      "hashPath": "system.text.json.6.0.4.nupkg.sha512"
     },
     "CapaTransversal/1.0.0": {
       "type": "project",

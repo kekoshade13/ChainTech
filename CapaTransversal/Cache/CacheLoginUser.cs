@@ -11,7 +11,7 @@ namespace CapaTransversal.Cache
         public static int IdUser { get; set; }
         public static string FirstName { get; set; }
         public static string LastName { get; set; }
-        public static string Position { get; set; }
+        public static string Role { get; set; }
         public static String Email{ get; set; }
     }
 }

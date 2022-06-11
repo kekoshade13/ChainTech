@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\Presentacion.csproj": {}
+    "C:\\Users\\josep\\source\\repos\\Chain1.0\\Presentacion\\Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj": {
+    "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj",
+        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj",
         "projectName": "CapaTransversal",
-        "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj",
+        "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\obj\\",
+        "outputPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +39,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,21 +67,17 @@
         }
       }
     },
-    "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\Domain.csproj": {
+    "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,11 +91,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj"
+              "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj": {
+                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj"
               },
-              "C:\\Users\\josep\\source\\repos\\ChainTech\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -115,6 +113,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -139,21 +141,17 @@
         }
       }
     },
-    "C:\\Users\\josep\\source\\repos\\ChainTech\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\ChainTech\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,8 +165,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj"
+              "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj": {
+                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj"
               }
             }
           }
@@ -186,6 +184,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -210,21 +212,17 @@
         }
       }
     },
-    "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\Presentacion.csproj": {
+    "C:\\Users\\josep\\source\\repos\\Chain1.0\\Presentacion\\Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\Presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Presentacion\\Presentacion.csproj",
         "projectName": "Presentacion",
-        "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\Presentacion.csproj",
+        "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Presentacion\\Presentacion.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Presentacion\\obj\\",
+        "outputPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Presentacion\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -238,11 +236,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\CapaTransversal\\CapaTransversal.csproj"
+              "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj": {
+                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj"
               },
-              "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTech\\Domain\\Domain.csproj"
+              "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj"
               }
             }
           }
@@ -256,6 +254,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
