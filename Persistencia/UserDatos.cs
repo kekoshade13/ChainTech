@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using CapaTransversal.Cache;
+using MySql.Data.MySqlClient;
 
 namespace Persistencia
 {
@@ -17,21 +18,21 @@ namespace Persistencia
             {
                 connection.Open();
 
-                using (var command = new SqlCommand()) {
+                using (var command = new MySqlCommand()) {
                     command.Connection = connection;
-                    command.CommandText = "SELECT * FROM Users WHERE LoginName=@user AND Password=@pass";
+                    command.CommandText = "SELECT * FROM users WHERE username=@user AND password=@pass";
                     command.Parameters.AddWithValue("@user", user);
                     command.Parameters.AddWithValue("@pass", pass);
                     command.CommandType = CommandType.Text;
 
-                    SqlDataReader reader = command.ExecuteReader();
+                    MySqlDataReader reader = command.ExecuteReader();
                     if(reader.HasRows) {
                         while(reader.Read()) {
                             CacheLoginUser.IdUser = reader.GetInt32(0);
-                            CacheLoginUser.FirstName = reader.GetString(3);
-                            CacheLoginUser.LastName = reader.GetString(4);
-                            CacheLoginUser.Role = reader.GetString(5);
-                            CacheLoginUser.Email = reader.GetString(6);
+                            CacheLoginUser.FirstName = reader.GetString(2);
+                            CacheLoginUser.LastName = reader.GetString(3);
+                            CacheLoginUser.Role = reader.GetString(4);
+                            CacheLoginUser.Email = reader.GetString(5);
                         }
                         return true;
                     } else {

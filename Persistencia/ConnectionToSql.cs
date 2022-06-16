@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace Persistencia
 {
@@ -13,10 +14,10 @@ namespace Persistencia
 
         private readonly String connString;
         public ConnectionToSql() {
-            connString = "Server=localhost;DataBase=ChainTechnology;integrated security= true";
+            connString = "server=localhost;user=root;database=ChainTechnology;port=3306;password=";
         }
-        protected SqlConnection GetConnection() {
-            return new SqlConnection(connString);
+        protected MySqlConnection GetConnection() {
+            return new MySqlConnection(connString);
         }
 
         

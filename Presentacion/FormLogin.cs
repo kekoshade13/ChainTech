@@ -136,7 +136,7 @@ namespace App
                             }
                             string JSONString = Encoding.UTF8.GetString(ms.ToArray());
                             Console.WriteLine(JSONString);
-                            File.WriteAllText("JSONUser.txt", JSONString);
+                            File.WriteAllText("JSONUser.json", JSONString);
                         }
                     } else
                     {

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj": {}
+    "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj": {
+    "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj",
+        "projectUniqueName": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj",
         "projectName": "CapaTransversal",
-        "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj",
-        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\obj\\",
+        "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj",
+        "packagesPath": "C:\\Users\\jpazg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jpazg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +44,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -63,21 +71,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj": {
+    "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jpazg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jpazg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,11 +103,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj"
+              "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj": {
+                "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj"
               },
-              "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -110,6 +122,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
@@ -137,21 +153,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\jpazg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jpazg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,8 +185,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj": {
-                "projectPath": "C:\\Users\\josep\\source\\repos\\Chain1.0\\CapaTransversal\\CapaTransversal.csproj"
+              "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj": {
+                "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj"
               }
             }
           }
@@ -181,6 +201,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
@@ -208,7 +232,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

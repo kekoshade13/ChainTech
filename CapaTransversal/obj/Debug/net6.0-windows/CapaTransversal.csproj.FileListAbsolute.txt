@@ -22,3 +22,15 @@ C:\Users\josep\source\repos\Chain1.0\CapaTransversal\obj\Debug\net6.0-windows\Ca
 C:\Users\josep\source\repos\Chain1.0\CapaTransversal\obj\Debug\net6.0-windows\refint\CapaTransversal.dll
 C:\Users\josep\source\repos\Chain1.0\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.pdb
 C:\Users\josep\source\repos\Chain1.0\CapaTransversal\obj\Debug\net6.0-windows\ref\CapaTransversal.dll
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\bin\Debug\net6.0-windows\CapaTransversal.deps.json
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\bin\Debug\net6.0-windows\CapaTransversal.dll
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\bin\Debug\net6.0-windows\CapaTransversal.pdb
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.csproj.AssemblyReference.cache
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.AssemblyInfoInputs.cache
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.AssemblyInfo.cs
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.csproj.CoreCompileInputs.cache
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.dll
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\refint\CapaTransversal.dll
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\CapaTransversal.pdb
+C:\Users\jpazg\source\repos\ChainTechnology\CapaTransversal\obj\Debug\net6.0-windows\ref\CapaTransversal.dll

@@ -9,13 +9,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Persistencia;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 
 namespace Presentacion
 {
     public partial class Form1 : Form
     {
 
-        SqlConnection conn = new SqlConnection("Server=localhost;DataBase=ChainTechnology;integrated security= true");
+        MySqlConnection conn = new MySqlConnection("server=localhost;user=root;database=ChainTechnology;port=3306;password=");
+        public DataTable tabla = new DataTable();
         public Form1()
         {
             InitializeComponent();
@@ -29,11 +31,11 @@ namespace Presentacion
 
         public DataTable consultarUsuarios()
         {
-            string query = "select * from Users";
-            SqlCommand cmd = new SqlCommand(query, conn);
-            SqlDataAdapter adaptador = new SqlDataAdapter();
+            string query = "select * from users";
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            MySqlDataAdapter adaptador = new MySqlDataAdapter();
             adaptador.SelectCommand = cmd;
-            DataTable tabla = new DataTable();
+           
             adaptador.Fill(tabla);
             dataUsuarios.DataSource = tabla;
 
@@ -43,6 +45,11 @@ namespace Presentacion
         private void Form1_Load(object sender, EventArgs e)
         {
             consultarUsuarios();
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Usuario Agregado");
         }
     }
 }
