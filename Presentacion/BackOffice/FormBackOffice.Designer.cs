@@ -1,6 +1,6 @@
 ﻿namespace Presentacion
 {
-    partial class Form1
+    partial class FormBackOffice
     {
         /// <summary>
         /// Required designer variable.
@@ -33,10 +33,11 @@
             this.lblGestionUsuarios = new System.Windows.Forms.Label();
             this.lblAdministrador = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataUsuarios)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -59,6 +60,7 @@
             this.dataUsuarios.RowTemplate.Height = 25;
             this.dataUsuarios.Size = new System.Drawing.Size(666, 261);
             this.dataUsuarios.TabIndex = 0;
+            this.dataUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataUsuarios_CellClick);
             this.dataUsuarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataUsuarios_CellContentClick);
             // 
             // lblGestionUsuarios
@@ -86,11 +88,49 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.panel1.Controls.Add(this.btnEliminar);
             this.panel1.Controls.Add(this.lblAdministrador);
+            this.panel1.Controls.Add(this.btnEditar);
+            this.panel1.Controls.Add(this.btnAgregar);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(138, 450);
             this.panel1.TabIndex = 3;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Location = new System.Drawing.Point(0, 151);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(138, 41);
+            this.btnEliminar.TabIndex = 7;
+            this.btnEliminar.Text = "Eliminar Usuario";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Location = new System.Drawing.Point(0, 104);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(138, 41);
+            this.btnEditar.TabIndex = 6;
+            this.btnEditar.Text = "Editar Usuario";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.Location = new System.Drawing.Point(0, 57);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(138, 41);
+            this.btnAgregar.TabIndex = 5;
+            this.btnAgregar.Text = "Agregar Usuario";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // panel2
             // 
@@ -100,39 +140,12 @@
             this.panel2.Size = new System.Drawing.Size(666, 60);
             this.panel2.TabIndex = 4;
             // 
-            // btnAgregar
+            // textBox1
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.White;
-            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregar.Location = new System.Drawing.Point(223, 339);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(101, 41);
-            this.btnAgregar.TabIndex = 5;
-            this.btnAgregar.Text = "Agregar Usuario";
-            this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.BackColor = System.Drawing.Color.White;
-            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditar.Location = new System.Drawing.Point(392, 339);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(101, 41);
-            this.btnEditar.TabIndex = 6;
-            this.btnEditar.Text = "Editar Usuario";
-            this.btnEditar.UseVisualStyleBackColor = false;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.BackColor = System.Drawing.Color.White;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Location = new System.Drawing.Point(592, 339);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(101, 41);
-            this.btnEliminar.TabIndex = 7;
-            this.btnEliminar.Text = "Eliminar Usuario";
-            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.textBox1.Location = new System.Drawing.Point(446, 333);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 5;
             // 
             // Form1
             // 
@@ -140,9 +153,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(799, 450);
-            this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataUsuarios);
@@ -155,6 +166,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -168,5 +180,6 @@
         private Button btnAgregar;
         private Button btnEditar;
         private Button btnEliminar;
+        private TextBox textBox1;
     }
 }

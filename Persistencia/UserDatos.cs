@@ -42,5 +42,69 @@ namespace Persistencia
                 }
             }
         }
+
+        public void addUser()
+        {
+
+        }
+
+        public void editUser()
+        {
+
+        }
+
+        public bool eliminarUsuario(String username)
+        {
+            if(consultarUsuarios(username) == true)
+            {
+                using (var connection = GetConnection())
+                {
+                    connection.Open();
+
+                    using (var command = new MySqlCommand())
+                    {
+                        command.Connection = connection;
+
+                        command.CommandText = "DELETE FROM users WHERE username=@username";
+                        command.Parameters.AddWithValue("@username", username);
+                        command.CommandType = CommandType.Text;
+                        MySqlDataReader reader = command.ExecuteReader();
+
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool consultarUsuarios(String username)
+        {
+            using (var connection = GetConnection())
+            {
+                connection.Open();
+
+                using (var command = new MySqlCommand())
+                {
+                    command.Connection = connection;
+
+                    command.CommandText = "SELECT * FROM users WHERE username=@username";
+                    command.Parameters.AddWithValue("@username", username);
+                    command.CommandType = CommandType.Text;
+
+                    MySqlDataReader reader = command.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        return true;
+                    } 
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+        }
     }
 }
