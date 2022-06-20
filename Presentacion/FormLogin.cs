@@ -9,15 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Data.SqlClient;
-using Domain;
 using Presentacion;
 using System.Text.Json;
 using CapaTransversal.Cache;
+using Persistencia;
 
 namespace App
 {
     public partial class FormLogin : Form
     {
+        private UserDatos user = new UserDatos();
         public FormLogin()
         {
             InitializeComponent();
@@ -108,7 +109,6 @@ namespace App
         {
             if(txtUser.Text != "USUARIO") {
                 if(txtPass.Text != "CONTRASEÑA"){
-                    UserModel user = new UserModel();
                     var validLogin = user.Login(txtUser.Text, txtPass.Text);
 
                     if (validLogin == true)

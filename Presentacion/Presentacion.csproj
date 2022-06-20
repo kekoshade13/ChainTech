@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CapaTransversal\CapaTransversal.csproj" />
-    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Persistencia\Persistencia.csproj" />
   </ItemGroup>
 
   <ItemGroup>

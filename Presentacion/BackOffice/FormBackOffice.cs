@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Persistencia;
 using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
+using Presentacion.BackOffice;
 
 namespace Presentacion
 {
@@ -71,6 +72,13 @@ namespace Presentacion
         {
             celda = dataUsuarios.CurrentCell.Value.ToString();
             textBox1.Text = celda;
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            FormEditUser userEdit = new FormEditUser();
+            userEdit.Show();
+            this.Hide();
         }
     }
 }

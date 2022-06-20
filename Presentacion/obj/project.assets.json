@@ -411,26 +411,6 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "CapaTransversal": "1.0.0",
-          "MySql.Data": "8.0.29",
-          "Persistencia": "1.0.0",
-          "System.Data.SqlClient": "4.8.3",
-          "System.Text.Json": "6.0.4"
-        },
-        "compile": {
-          "bin/placeholder/Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
       "Persistencia/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1299,11 +1279,6 @@
       "path": "../CapaTransversal/CapaTransversal.csproj",
       "msbuildProject": "../CapaTransversal/CapaTransversal.csproj"
     },
-    "Domain/1.0.0": {
-      "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
-    },
     "Persistencia/1.0.0": {
       "type": "project",
       "path": "../Persistencia/Persistencia.csproj",
@@ -1313,25 +1288,30 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CapaTransversal >= 1.0.0",
-      "Domain >= 1.0.0",
       "MySql.Data >= 8.0.29",
+      "Persistencia >= 1.0.0",
       "System.Text.Json >= 6.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josep\\.nuget\\packages\\": {}
+    "C:\\Users\\jpazg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\Presentacion\\Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Presentacion\\Presentacion.csproj",
       "projectName": "Presentacion",
-      "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\Presentacion\\Presentacion.csproj",
-      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\Presentacion\\obj\\",
+      "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Presentacion\\Presentacion.csproj",
+      "packagesPath": "C:\\Users\\jpazg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Presentacion\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jpazg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1345,11 +1325,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\josep\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj": {
-              "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj"
+            "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj": {
+              "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj"
             },
-            "C:\\Users\\josep\\source\\repos\\ChainTechnology\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\Domain\\Domain.csproj"
+            "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -1391,7 +1371,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
