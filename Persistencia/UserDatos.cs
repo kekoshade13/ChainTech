@@ -7,6 +7,8 @@ using System.Data.SqlClient;
 using System.Data;
 using CapaTransversal.Cache;
 using MySql.Data.MySqlClient;
+using System.Windows.Controls;
+using Org.BouncyCastle.Asn1.Crmf;
 
 namespace Persistencia
 {
@@ -36,9 +38,10 @@ namespace Persistencia
             }
         }
 
-        public bool addUser(String user, String firstName, String lastName, 
-            String role, String email, String password)
+        public bool addUser(String user, String firstName, String lastName, String email, String password)
         {
+
+
             if(consultarUsuarios(user) == false)
             {
                 using (var connection = GetConnection())
@@ -48,12 +51,10 @@ namespace Persistencia
                     using (var command = new MySqlCommand())
                     {
                         command.Connection = connection;
-                        command.CommandText = "INSERT INTO users (username, first_name, last_name, role, email, password)" +
-                            " VALUES ('@username', '@firstname', '@lastname','@role', '@email', '@password')";
+                        command.CommandText = "INSERT INTO users (username, first_name, last_name, email, password) VALUES (@username, @firstname, @lastname, @email, @password)";
                         command.Parameters.AddWithValue("@username", user);
                         command.Parameters.AddWithValue("@firstname", firstName);
                         command.Parameters.AddWithValue("@lastname", lastName);
-                        command.Parameters.AddWithValue("@role", role);
                         command.Parameters.AddWithValue("@email", email);
                         command.Parameters.AddWithValue("@password", password);
 

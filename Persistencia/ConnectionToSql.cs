@@ -16,12 +16,9 @@ namespace Persistencia
         public ConnectionToSql() {
             connString = "server=localhost;user=root;database=ChainTechnology;port=3306;password=";
         }
-        protected MySqlConnection GetConnection() {
+        protected MySqlConnection GetConnection()
+        {
             return new MySqlConnection(connString);
         }
-
-        
-
-
     }
 }

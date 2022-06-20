@@ -49,7 +49,9 @@ namespace Presentacion
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Usuario Agregado");
+            FormAddUser addUser = new FormAddUser();
+            addUser.Show();
+            this.Hide();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

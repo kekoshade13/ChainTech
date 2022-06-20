@@ -38,6 +38,7 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnAddbanner = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataUsuarios)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -87,7 +88,8 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.btnAddbanner);
             this.panel1.Controls.Add(this.btnEliminar);
             this.panel1.Controls.Add(this.lblAdministrador);
             this.panel1.Controls.Add(this.btnEditar);
@@ -99,9 +101,10 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnEliminar.BackColor = System.Drawing.Color.Black;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Location = new System.Drawing.Point(0, 151);
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Location = new System.Drawing.Point(0, 198);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(138, 41);
             this.btnEliminar.TabIndex = 7;
@@ -111,8 +114,9 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnEditar.BackColor = System.Drawing.Color.Black;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.ForeColor = System.Drawing.Color.White;
             this.btnEditar.Location = new System.Drawing.Point(0, 104);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(138, 41);
@@ -123,8 +127,9 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnAgregar.BackColor = System.Drawing.Color.Black;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
             this.btnAgregar.Location = new System.Drawing.Point(0, 57);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(138, 41);
@@ -147,6 +152,18 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 5;
+            // 
+            // btnAddbanner
+            // 
+            this.btnAddbanner.BackColor = System.Drawing.Color.Black;
+            this.btnAddbanner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddbanner.ForeColor = System.Drawing.Color.White;
+            this.btnAddbanner.Location = new System.Drawing.Point(0, 151);
+            this.btnAddbanner.Name = "btnAddbanner";
+            this.btnAddbanner.Size = new System.Drawing.Size(138, 41);
+            this.btnAddbanner.TabIndex = 8;
+            this.btnAddbanner.Text = "Añadir Banners";
+            this.btnAddbanner.UseVisualStyleBackColor = false;
             // 
             // FormBackOffice
             // 
@@ -182,5 +199,6 @@
         private Button btnEditar;
         private Button btnEliminar;
         private TextBox textBox1;
+        private Button btnAddbanner;
     }
 }
