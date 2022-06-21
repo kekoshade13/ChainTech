@@ -176,13 +176,10 @@ C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-window
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\CapaTransversal.dll
-C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\Domain.dll
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\Persistencia.dll
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\CapaTransversal.pdb
-C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\Domain.pdb
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\bin\Debug\net6.0-windows\Persistencia.pdb
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.csproj.AssemblyReference.cache
-C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.Form1.resources
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\App.FormLogin.resources
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.Principal.resources
 C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.Properties.Resources.resources
@@ -201,3 +198,8 @@ C:\Users\jpazg\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-window
 C:\Users\jpazg\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.FormBackOffice.resources
 C:\Users\jpazg\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.BackOffice.FormEditUser.resources
 C:\Users\jpazg\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.NewFormLogin.resources
+C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.BackOffice.Form1.resources
+C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.BackOffice.FormAddUser.resources
+C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.FormBackOffice.resources
+C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.BackOffice.FormEditUser.resources
+C:\Users\josep\source\repos\ChainTechnology\Presentacion\obj\Debug\net6.0-windows\Presentacion.NewFormLogin.resources
