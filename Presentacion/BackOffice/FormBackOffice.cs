@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Persistencia;
 using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using Presentacion.BackOffice;
@@ -58,7 +57,6 @@ namespace Presentacion
         {
             UserDatos user = new UserDatos();
             var eliminarUser = user.eliminarUsuario(celda);
-
             if(eliminarUser == true)
             {
                 dataUsuarios.Refresh();
@@ -80,6 +78,13 @@ namespace Presentacion
         {
             FormEditUser userEdit = new FormEditUser();
             userEdit.Show();
+            this.Hide();
+        }
+
+        private void btnAddbanner_Click(object sender, EventArgs e)
+        {
+            Form1 addBanner = new Form1();
+            addBanner.Show();
             this.Hide();
         }
     }

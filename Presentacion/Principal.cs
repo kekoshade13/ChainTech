@@ -1,5 +1,5 @@
 ﻿using App;
-using CapaTransversal.Cache;
+using Presentacion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -71,7 +71,7 @@ namespace Presentacion
 
         private void userLoadData()
         {
-            lblNombre.Text = CacheLoginUser.FirstName + " "  + CacheLoginUser.LastName;
+            UserDatos user = new UserDatos();
         }
     }
 }

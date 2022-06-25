@@ -11,13 +11,15 @@ using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using Presentacion;
 using System.Text.Json;
-using CapaTransversal.Cache;
-using Persistencia;
+
 
 namespace App
 {
     public partial class FormLogin : Form
     {
+
+        public string username { get; set; }
+        public string password { get; set; }
         private UserDatos user = new UserDatos();
         public FormLogin()
         {
@@ -110,33 +112,29 @@ namespace App
             if(txtUser.Text != "USUARIO") {
                 if(txtPass.Text != "CONTRASEÑA"){
                     var validLogin = user.Login(txtUser.Text, txtPass.Text);
-
                     if (validLogin == true)
                     {
                         Principal principal = new Principal();
                         principal.Show();
-                        principal.FormClosed += Logout;
                         JsonWriterOptions jsonWOption = new JsonWriterOptions
                         {
                             Indented = true
                         };
+
                         using (var ms = new MemoryStream())
                         {
                             using (var writer = new Utf8JsonWriter(ms, jsonWOption))
                             {
                                 writer.WriteStartObject();
                                 writer.WriteString("Login: ", "Exitoso");
-                                writer.WriteNumber("ID_User", CacheLoginUser.IdUser);
-                                writer.WriteString("Nombre", CacheLoginUser.FirstName);
-                                writer.WriteString("Apellido", CacheLoginUser.LastName);
-                                writer.WriteString("Email", CacheLoginUser.Email);
-                                writer.WriteString("Rol", CacheLoginUser.Role);
+                                writer.WriteString("Nombre", user.devolverDatos());
 
                                 writer.WriteEndObject();
                             }
                             string JSONString = Encoding.UTF8.GetString(ms.ToArray());
                             Console.WriteLine(JSONString);
                             File.WriteAllText("JSONUser.json", JSONString);
+                            
                         }
                     } else
                     {

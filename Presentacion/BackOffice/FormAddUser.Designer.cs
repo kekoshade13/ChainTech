@@ -205,18 +205,19 @@
             this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "Administrador",
-            "Usuario"});
+            "Superusuario",
+            "Publicitario",
+            "Notificativo"});
             this.checkedListBox1.Location = new System.Drawing.Point(461, 242);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(126, 36);
+            this.checkedListBox1.Size = new System.Drawing.Size(126, 54);
             this.checkedListBox1.TabIndex = 15;
             // 
             // btnAddUser
             // 
             this.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddUser.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAddUser.Location = new System.Drawing.Point(369, 293);
+            this.btnAddUser.Location = new System.Drawing.Point(369, 315);
             this.btnAddUser.Name = "btnAddUser";
             this.btnAddUser.Size = new System.Drawing.Size(226, 30);
             this.btnAddUser.TabIndex = 16;

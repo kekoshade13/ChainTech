@@ -1,0 +1,15 @@
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\bin\Debug\net6.0-windows\BackOffice.exe
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\bin\Debug\net6.0-windows\BackOffice.deps.json
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\bin\Debug\net6.0-windows\BackOffice.runtimeconfig.json
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\bin\Debug\net6.0-windows\BackOffice.dll
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\bin\Debug\net6.0-windows\BackOffice.pdb
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.csproj.AssemblyReference.cache
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.AssemblyInfoInputs.cache
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.AssemblyInfo.cs
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.csproj.CoreCompileInputs.cache
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.dll
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\refint\BackOffice.dll
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.pdb
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\BackOffice.genruntimeconfig.cache
+C:\Users\jpazg\source\repos\ChainTechnology\BackOffice\obj\Debug\net6.0-windows\ref\BackOffice.dll

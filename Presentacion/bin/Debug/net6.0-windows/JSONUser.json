@@ -1,8 +1,8 @@
 {
   "Login: ": "Exitoso",
-  "ID_User": 2,
-  "Nombre": "Federico",
-  "Apellido": "Viera",
-  "Email": "fede@gmail.com",
-  "Rol": "Usuario"
+  "ID_User": 0,
+  "Nombre": null,
+  "Apellido": null,
+  "Email": null,
+  "Rol": null
 }

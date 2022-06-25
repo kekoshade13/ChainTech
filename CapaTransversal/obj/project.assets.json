@@ -968,19 +968,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josep\\.nuget\\packages\\": {}
+    "C:\\Users\\jpazg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj",
-      "projectName": "CapaTransversal",
-      "projectPath": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\CapaTransversal\\CapaTransversal.csproj",
-      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\source\\repos\\ChainTechnology\\CapaTransversal\\obj\\",
+      "projectUniqueName": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\Controllers.csproj",
+      "projectName": "Controllers",
+      "projectPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\Controllers.csproj",
+      "packagesPath": "C:\\Users\\jpazg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jpazg\\source\\repos\\ChainTechnology\\CapaTransversal\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jpazg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1033,7 +1038,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

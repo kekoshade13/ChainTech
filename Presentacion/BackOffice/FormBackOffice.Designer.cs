@@ -33,12 +33,12 @@
             this.lblGestionUsuarios = new System.Windows.Forms.Label();
             this.lblAdministrador = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAddbanner = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnAddbanner = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataUsuarios)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -99,6 +99,19 @@
             this.panel1.Size = new System.Drawing.Size(138, 450);
             this.panel1.TabIndex = 3;
             // 
+            // btnAddbanner
+            // 
+            this.btnAddbanner.BackColor = System.Drawing.Color.Black;
+            this.btnAddbanner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddbanner.ForeColor = System.Drawing.Color.White;
+            this.btnAddbanner.Location = new System.Drawing.Point(0, 151);
+            this.btnAddbanner.Name = "btnAddbanner";
+            this.btnAddbanner.Size = new System.Drawing.Size(138, 41);
+            this.btnAddbanner.TabIndex = 8;
+            this.btnAddbanner.Text = "Añadir Banners";
+            this.btnAddbanner.UseVisualStyleBackColor = false;
+            this.btnAddbanner.Click += new System.EventHandler(this.btnAddbanner_Click);
+            // 
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Black;
@@ -152,18 +165,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 5;
-            // 
-            // btnAddbanner
-            // 
-            this.btnAddbanner.BackColor = System.Drawing.Color.Black;
-            this.btnAddbanner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddbanner.ForeColor = System.Drawing.Color.White;
-            this.btnAddbanner.Location = new System.Drawing.Point(0, 151);
-            this.btnAddbanner.Name = "btnAddbanner";
-            this.btnAddbanner.Size = new System.Drawing.Size(138, 41);
-            this.btnAddbanner.TabIndex = 8;
-            this.btnAddbanner.Text = "Añadir Banners";
-            this.btnAddbanner.UseVisualStyleBackColor = false;
             // 
             // FormBackOffice
             // 

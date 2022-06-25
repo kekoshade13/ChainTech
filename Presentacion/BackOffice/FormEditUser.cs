@@ -1,6 +1,4 @@
-﻿using CapaTransversal.Cache;
-using Persistencia;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,16 +30,17 @@ namespace Presentacion.BackOffice
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             UserDatos user = new UserDatos();
+            var datosUser = user.devolverDatos;
             var result = user.consultarUsuarios(txtUser.Text);
 
-            if(result == true)
+            /*if(result == true)
             {
-                txtNewUser.Text = CacheLoginUser.UserName;
+                txtNewUser.Text = datosUser;
                 txtNewName.Text = CacheLoginUser.FirstName;
                 txtNewLastName.Text = CacheLoginUser.LastName;
                 txtNewEmail.Text = CacheLoginUser.Email;
                 txtNewPassword.Text = CacheLoginUser.Password;
-            }
+            }*/
         }
 
         private void btnAddUser_Click(object sender, EventArgs e)
